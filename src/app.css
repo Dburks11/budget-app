@@ -1,7 +1,5 @@
 @import "tailwindcss";
-@plugin "daisyui";
-
-@theme {
-   --breakpoint 
-   --color-coreGrey: #404040;
-}
+ @theme {
+    --color-coreGrey: #191919;
+    --color-coreGreen: #028348;
+ }
