@@ -1,10 +1,17 @@
 <script lang="ts">
+  import { goto } from "$app/navigation";
+
   export let label: string;
+
+  function handleClick(path: string) {
+    goto(path);
+  }
 </script>
 
-<div
-  class="flex w-full justify-center bg-coreGrey p-1 hover:bg-coreGreen
-        rounded-2xl text-2xl my-0.5"
+<button
+  class="flex w-full bg-coreGrey p-1 hover:bg-coreGreen
+         text-2xl my-0.5 text-sidebarTextColor"
+  onclick={() => handleClick(`/${label.toLowerCase()}`)}
 >
   {label}
-</div>
+</button>
