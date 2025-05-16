@@ -1,6 +1,35 @@
 @import "tailwindcss";
- @theme {
-    --color-coreGrey: #191919;
-    --color-coreGreen: #028348;
-    --color-sidebarTextColor: #e5e5e5;
- }
+
+@plugin "daisyui";
+@plugin "daisyui/theme" {
+  name: "mainTheme";
+  default: true;
+  color-scheme: light;
+
+  --color-primary: #191919;
+  --color-secondary: #028348;
+  
+
+}
+
+@custom-variant dark (&:where(.dark, .dark *));
+@theme {
+  --color-coreGrey: #191919;
+  --color-coreGreen: #028348;
+  --color-sidebarTextColor: #e5e5e5;
+  --color-secondary-hover: 00581f;
+}
+
+/* Reusable gradient utility */
+.gradient-core {
+  @apply bg-gradient-to-b from-coreGrey to-coreGreen;
+}
+
+.gradient-core-reversed {
+  @apply bg-gradient-to-b from-coreGreen to-coreGrey;
+}
+
+/* Reusable text gradient utility */
+.text-gradient-core {
+  @apply bg-gradient-to-r from-coreGrey to-coreGreen bg-clip-text text-transparent;
+}
