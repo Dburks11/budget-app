@@ -9,7 +9,7 @@
 </script>
 
 <button
-  class="flex w-full bg-coreGrey p-1 hover:bg-coreGreen
+  class="flex w-full p-1 hover:bg-coreGreen
          text-2xl my-0.5 text-sidebarTextColor"
   onclick={() => handleClick(`/${label.toLowerCase()}`)}
 >
