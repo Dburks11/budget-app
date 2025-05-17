@@ -7,7 +7,7 @@
 </script>
 
 <div id="pageContainer" class="flex bg-gray-50">
-  <div id="loginHalf" class="flex flex-col items-center w-2/3 fixed">
+  <div id="loginHalf" class="flex flex-col items-center w-full md:w-2/3 md:fixed">
     <div class="flex flex-row ml-[-2rem]">
       <img
         class="h-20 w-20 my-15"
