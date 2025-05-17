@@ -1,9 +1,9 @@
 <script lang="ts">
   import Sidebar from "../../components/Sidebar.svelte";
-  import topBar from "../../components/topBar.svelte";
+  import Topbar from "../../components/topBar.svelte";
 </script>
 
 <div class="flex">
-  <TopBar></TopBar>
+  <Topbar></Topbar>
   <Sidebar></Sidebar>
 </div>
