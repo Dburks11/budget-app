@@ -58,7 +58,7 @@
     </div>
     <div
       id="gradientHalf"
-      class="flex w-1/3 h-screen gradient-core fixed right-0 shadow"
+      class="hidden md:flex w-1/3 h-screen gradient-core fixed right-0 shadow"
     ></div>
   </div>
 </div>
