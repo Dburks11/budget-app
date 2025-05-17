@@ -1,5 +1,5 @@
 <nav
-  class="flex flex-row w-full gradient-core p-3 border-b-3 border-coreGreen z-20 shadow"
+  class="flex flex-row w-full gradient-core p-3 border-b-3 border-coreGreen z-30 shadow fixed top-0 left-0"
 >
   <img
     class="h-20 w-20 my-2"
