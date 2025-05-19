@@ -6,8 +6,11 @@
   }
 </script>
 
-<div id="pageContainer" class="flex bg-gray-50">
-  <div id="loginHalf" class="flex flex-col items-center w-full md:w-2/3 md:fixed">
+<div id="pageContainer" class="flex">
+  <div
+    id="loginHalf"
+    class="flex flex-col items-center w-full md:w-2/3 md:fixed"
+  >
     <div class="flex flex-row ml-[-2rem]">
       <img
         class="h-20 w-20 my-15"
@@ -49,7 +52,7 @@
               onclick={() => handleClick(`transactions`)}>Sign in</button
             >
             <button
-              class=" text-secondary opacity-75 text-xs mt-3 hover:text-secondary-hover"
+              class="text-secondary opacity-75 text-xs mt-3 hover:text-secondary-hover"
               >First time login?</button
             >
           </div>
