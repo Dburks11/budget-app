@@ -12,11 +12,7 @@
     class="flex flex-col items-center w-full md:w-2/3 md:fixed"
   >
     <div class="flex flex-row ml-[-2rem]">
-      <img
-        class="h-20 w-20 my-15"
-        src="/ChatGPT%20Image%20May%2016,%202025,%2006_07_59%20PM%20(1).png"
-        alt="Logo"
-      />
+      <img class="h-20 w-20 my-15" src="/smartbudgetlogo.png" alt="Logo" />
       <h1 class="mt-20 text-3xl text-gradient-core">SmartBudget</h1>
     </div>
     <div id="welcomeBack-to-button" class="py">
