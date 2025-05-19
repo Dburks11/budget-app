@@ -4,7 +4,11 @@
   export let label: string;
 
   function handleClick(path: string) {
-    goto(path);
+    if (label.toLowerCase() === "users") {
+      goto("/");
+    } else {
+      goto(path);
+    }
   }
 </script>
 
