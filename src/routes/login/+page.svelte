@@ -31,11 +31,11 @@
             placeholder="Password"
             class="input input-secondary rounded-md mt-2"
           />
-          <span
-            class="text-xs text-secondary opacity-75 mt-1 hover:text-secondary-hover"
+          <button
+            class="text-xs text-secondary opacity-75 mt-1 hover:text-secondary-hover self-start"
           >
             Forgot password?
-          </span>
+          </button>
         </div>
         <div class="my-10">
           <div id="rememberToggle" class="flex flex-row mt-2">
@@ -45,7 +45,7 @@
           <div class="flex flex-col">
             <button
               class="btn btn-secondary px-33 mt-1"
-              onclick={() => handleClick(`transactions`)}>Sign in</button
+              onclick={() => handleClick(`/`)}>Sign in</button
             >
             <button
               class="text-secondary opacity-75 text-xs mt-3 hover:text-secondary-hover"
