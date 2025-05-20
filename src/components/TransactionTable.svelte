@@ -1,6 +1,6 @@
 <div class="overflow-x-auto mt-20">
   <table
-    class="table table-xs table-zebra table-pin-rows table-pin-cols ml-40 mr-20 mt-30 w-fit"
+    class="table table-xs table-zebra table-pin-rows table-pin-cols ml-40 mr-20 mt-30 w-fit origin-top-left"
   >
     <thead>
       <tr>
