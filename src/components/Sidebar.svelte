@@ -3,14 +3,12 @@
 </script>
 
 <div
-  class="fixed top-0 left-0 w-55 h-screen my-10 py-25 px-5
-         gradient-core-reversed text-grey shadow flex justify-start
-         flex-col items-start pl-4"
+  class="fixed top-0 left-0 w-40 h-screen my-10 py-23
+         bg-coreGrey text-sidebarTextColor shadow flex flex-col items-start pl-4"
 >
   <SidebarIcon label="Users">
     <svg
-      width="20%"
-      height="100%"
+      class="w-6 h-6 mr-2 text-coreGreen"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -24,10 +22,9 @@
       />
     </svg>
   </SidebarIcon>
-  <SidebarIcon label="Transactions">
+  <SidebarIcon label="Projects">
     <svg
-      width="100%"
-      height="100%"
+      class="w-6 h-6 mr-2 text-coreGreen"
       viewBox="0 0 25 25"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
