@@ -3,7 +3,7 @@
 </script>
 
 <div
-  class="fixed top-0 left-0 w-40 h-screen my-10 py-23
+  class="fixed top-0 left-0 w-40 h-screen my-10 py-23 z-10
          bg-coreGrey text-sidebarTextColor shadow flex flex-col items-start pl-4"
 >
   <SidebarIcon label="Users">
