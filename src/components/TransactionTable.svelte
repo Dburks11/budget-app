@@ -1,5 +1,7 @@
-<div class="overflow-x-auto mt-20">
-  <table class="table table-zebra table-pin-rows table-pin-cols w-full">
+<div class="flex flex-col h-full w-full overflow-x-auto mr-10">
+  <table
+    class="table table-zebra table-sm table-pin-rows table-pin-cols ml-40 mt-40"
+  >
     <thead>
       <tr>
         <td>Name</td>
@@ -11,123 +13,123 @@
     <tbody>
       <tr>
         <td>Cy Ganderton</td>
-        <td>Littel, Schaden and Vandervort</td>
-        <td>Quality Control Specialist</td>
-        <td>12/16/2020</td>
+        <td>CORE TX</td>
+        <td>58</td>
+        <td>April, 28, 2025</td>
       </tr>
       <tr>
         <td>Hart Hagerty</td>
-        <td>Zemlak, Daniel and Leannon</td>
-        <td>Desktop Support Technician</td>
-        <td>12/5/2020</td>
+        <td>CCG services</td>
+        <td>112</td>
+        <td>May, 3, 2025</td>
       </tr>
       <tr>
         <td>Brice Swyre</td>
-        <td>Carroll Group</td>
-        <td>Tax Accountant</td>
-        <td>8/15/2020</td>
+        <td>CCG services</td>
+        <td>33</td>
+        <td>May, 12, 2025</td>
       </tr>
       <tr>
         <td>Marjy Ferencz</td>
-        <td>Rowe-Schoen</td>
-        <td>Office Assistant I</td>
-        <td>3/25/2021</td>
+        <td>CORE TX</td>
+        <td>7</td>
+        <td>April, 22, 2025</td>
       </tr>
       <tr>
         <td>Yancy Tear</td>
-        <td>Wyman-Ledner</td>
-        <td>Community Outreach Specialist</td>
-        <td>5/22/2020</td>
+        <td>CCG services</td>
+        <td>91</td>
+        <td>May, 19, 2025</td>
       </tr>
       <tr>
         <td>Irma Vasilik</td>
-        <td>Wiza, Bins and Emard</td>
-        <td>Editor</td>
-        <td>12/8/2020</td>
+        <td>CORE TX</td>
+        <td>45</td>
+        <td>May, 1, 2025</td>
       </tr>
       <tr>
         <td>Meghann Durtnal</td>
-        <td>Schuster-Schimmel</td>
-        <td>Staff Accountant IV</td>
-        <td>2/17/2021</td>
+        <td>CCG services</td>
+        <td>77</td>
+        <td>April, 30, 2025</td>
       </tr>
       <tr>
         <td>Sammy Seston</td>
-        <td>O'Hara, Welch and Keebler</td>
-        <td>Accountant I</td>
-        <td>5/23/2020</td>
+        <td>CORE TX</td>
+        <td>23</td>
+        <td>May, 8, 2025</td>
       </tr>
       <tr>
         <td>Lesya Tinham</td>
-        <td>Turner-Kuhlman</td>
-        <td>Safety Technician IV</td>
-        <td>2/21/2021</td>
+        <td>CCG services</td>
+        <td>101</td>
+        <td>May, 15, 2025</td>
       </tr>
       <tr>
         <td>Zaneta Tewkesbury</td>
-        <td>Sauer LLC</td>
-        <td>VP Marketing</td>
-        <td>6/23/2020</td>
+        <td>CORE TX</td>
+        <td>62</td>
+        <td>April, 25, 2025</td>
       </tr>
       <tr>
         <td>Andy Tipple</td>
-        <td>Hilpert Group</td>
-        <td>Librarian</td>
-        <td>7/9/2020</td>
+        <td>CCG services</td>
+        <td>8</td>
+        <td>May, 5, 2025</td>
       </tr>
       <tr>
         <td>Sophi Biles</td>
-        <td>Gutmann Inc</td>
-        <td>Recruiting Manager</td>
-        <td>2/12/2021</td>
+        <td>CORE TX</td>
+        <td>119</td>
+        <td>May, 20, 2025</td>
       </tr>
       <tr>
         <td>Florida Garces</td>
-        <td>Gaylord, Pacocha and Baumbach</td>
-        <td>Web Developer IV</td>
-        <td>5/31/2020</td>
+        <td>CCG services</td>
+        <td>39</td>
+        <td>April, 21, 2025</td>
       </tr>
       <tr>
         <td>Maribeth Popping</td>
-        <td>Deckow-Pouros</td>
-        <td>Analyst Programmer</td>
-        <td>4/27/2021</td>
+        <td>CORE TX</td>
+        <td>72</td>
+        <td>May, 10, 2025</td>
       </tr>
       <tr>
         <td>Moritz Dryburgh</td>
-        <td>Schiller, Cole and Hackett</td>
-        <td>Dental Hygienist</td>
-        <td>8/8/2020</td>
+        <td>CCG services</td>
+        <td>5</td>
+        <td>April, 29, 2025</td>
       </tr>
       <tr>
         <td>Reid Semiras</td>
-        <td>Sporer, Sipes and Rogahn</td>
-        <td>Teacher</td>
-        <td>7/30/2020</td>
+        <td>CORE TX</td>
+        <td>98</td>
+        <td>May, 17, 2025</td>
       </tr>
       <tr>
         <td>Alec Lethby</td>
-        <td>Reichel, Glover and Hamill</td>
-        <td>Teacher</td>
-        <td>2/28/2021</td>
+        <td>CCG services</td>
+        <td>28</td>
+        <td>May, 2, 2025</td>
       </tr>
       <tr>
         <td>Aland Wilber</td>
-        <td>Kshlerin, Rogahn and Swaniawski</td>
-        <td>Quality Control Specialist</td>
-        <td>9/29/2020</td>
+        <td>CORE TX</td>
+        <td>84</td>
+        <td>April, 24, 2025</td>
       </tr>
       <tr>
         <td>Teddie Duerden</td>
-        <td>Pouros, Ullrich and Windler</td>
-        <td>Staff Accountant III</td>
-        <td>10/27/2020</td>
+        <td>CCG services</td>
+        <td>50</td>
+        <td>May, 11, 2025</td>
       </tr>
       <tr>
         <td>Lorelei Blackstone</td>
-        <td>Witting, Kutch and Greenfelder</td>
-        <td>Data Coordinator</td>
-        <td>6/3/2020</td>
+        <td>CORE TX</td>
+        <td>115</td>
+        <td>May, 18, 2025</td>
       </tr>
     </tbody>
   </table>
