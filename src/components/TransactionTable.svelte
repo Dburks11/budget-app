@@ -207,7 +207,7 @@
 </script>
 
 <div>
-  <div class="w-428 ml-36 mt-40 h-195">
+  <div class="w-428 ml-36 mt-10 h-195">
     <Grid data={Users} {columns} />
   </div>
 </div>
