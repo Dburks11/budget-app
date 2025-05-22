@@ -56,3 +56,18 @@
 .text-gradient-core {
   @apply bg-gradient-to-r from-coreGrey to-coreGreen bg-clip-text text-transparent;
 }
+
+.wx-header {
+  background-color: white; /* or your theme color */
+  z-index: 1;
+  margin-bottom: 1em;
+  font-size: large;
+}
+
+.wx-grid .wx-row:nth-child(even) .wx-cell {
+  background-color: #45454543;
+}
+
+.wx-grid .wx-row:nth-child(odd) .wx-cell {
+  background-color: white;
+}

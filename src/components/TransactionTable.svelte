@@ -1,11 +1,213 @@
 <script lang="ts">
+  import "../app.css";
   import { Grid } from "wx-svelte-grid";
-  import type { userData } from "../types/components.ts";
+  import type { User } from "../types/components.ts";
 
-  const data: userData = {
-    name: "",
-    company: "",
-    reports: 0,
-    latestReports: "",
-  };
+  let children = $props();
+  let api = $state();
+
+  export const Users: User[] = [
+    {
+      id: "1",
+      name: "Cy Ganderton",
+      company: "CORE TX",
+      reports: 58,
+      latestReports: "April, 28, 2025",
+    },
+    {
+      id: "2",
+      name: "Hart Hagerty",
+      company: "CCG services",
+      reports: 112,
+      latestReports: "May, 3, 2025",
+    },
+    {
+      id: "3",
+      name: "Brice Swyre",
+      company: "CCG services",
+      reports: 33,
+      latestReports: "May, 12, 2025",
+    },
+    {
+      id: "4",
+      name: "Cortez Andrews",
+      company: "Nova Corp",
+      reports: 27,
+      latestReports: "May, 15, 2025",
+    },
+    {
+      id: "5",
+      name: "Ivy Wong",
+      company: "CORE TX",
+      reports: 44,
+      latestReports: "May, 16, 2025",
+    },
+    {
+      id: "6",
+      name: "Jamal Reid",
+      company: "BlueEdge",
+      reports: 73,
+      latestReports: "May, 17, 2025",
+    },
+    {
+      id: "7",
+      name: "Lara Mendoza",
+      company: "CCG services",
+      reports: 19,
+      latestReports: "May, 18, 2025",
+    },
+    {
+      id: "8",
+      name: "Nina Patel",
+      company: "Nova Corp",
+      reports: 88,
+      latestReports: "May, 19, 2025",
+    },
+    {
+      id: "9",
+      name: "Devin Cole",
+      company: "CORE TX",
+      reports: 41,
+      latestReports: "May, 20, 2025",
+    },
+    {
+      id: "10",
+      name: "Zara Khan",
+      company: "BlueEdge",
+      reports: 65,
+      latestReports: "May, 21, 2025",
+    },
+    {
+      id: "11",
+      name: "Eli Novak",
+      company: "CCG services",
+      reports: 23,
+      latestReports: "May, 22, 2025",
+    },
+    {
+      id: "12",
+      name: "Reese Taylor",
+      company: "Nova Corp",
+      reports: 91,
+      latestReports: "May, 23, 2025",
+    },
+    {
+      id: "13",
+      name: "Kai Mendez",
+      company: "CORE TX",
+      reports: 37,
+      latestReports: "May, 24, 2025",
+    },
+    {
+      id: "14",
+      name: "Lena Yu",
+      company: "BlueEdge",
+      reports: 59,
+      latestReports: "May, 25, 2025",
+    },
+    {
+      id: "15",
+      name: "Theo Nguyen",
+      company: "CCG services",
+      reports: 46,
+      latestReports: "May, 26, 2025",
+    },
+    {
+      id: "16",
+      name: "Vera Ali",
+      company: "Nova Corp",
+      reports: 78,
+      latestReports: "May, 27, 2025",
+    },
+    {
+      id: "17",
+      name: "Omar Bryant",
+      company: "CORE TX",
+      reports: 32,
+      latestReports: "May, 28, 2025",
+    },
+    {
+      id: "18",
+      name: "Elsa Roman",
+      company: "BlueEdge",
+      reports: 104,
+      latestReports: "May, 29, 2025",
+    },
+    {
+      id: "19",
+      name: "Jon Lin",
+      company: "CCG services",
+      reports: 21,
+      latestReports: "May, 30, 2025",
+    },
+    {
+      id: "20",
+      name: "Tina Fox",
+      company: "Nova Corp",
+      reports: 36,
+      latestReports: "June, 1, 2025",
+    },
+    {
+      id: "21",
+      name: "Isaac Moore",
+      company: "CORE TX",
+      reports: 52,
+      latestReports: "June, 2, 2025",
+    },
+    {
+      id: "22",
+      name: "Sophie Tran",
+      company: "BlueEdge",
+      reports: 67,
+      latestReports: "June, 3, 2025",
+    },
+    {
+      id: "23",
+      name: "Leo Sanders",
+      company: "CCG services",
+      reports: 39,
+      latestReports: "June, 4, 2025",
+    },
+  ];
+
+  const columns = [
+    {
+      id: "name",
+      header: "Name",
+      sort: true,
+      resize: true,
+    },
+    {
+      id: "company",
+      header: "Company",
+      sort: true,
+      resize: true,
+      flexgrow: 1,
+    },
+    {
+      id: "reports",
+      header: "Reports",
+      sort: true,
+      resize: true,
+      flexgrow: 1,
+    },
+    {
+      id: "latestReports",
+      header: "Latest Reports",
+      sort: true,
+      resize: true,
+      flexgrow: 1,
+    },
+  ];
+
+  const rows = [];
+
+  for (const user of Users) {
+  }
 </script>
+
+<div>
+  <div class="w-428 ml-36 mt-40 h-195">
+    <Grid data={Users} {columns} />
+  </div>
+</div>
