@@ -176,6 +176,7 @@
       header: "Name",
       sort: true,
       resize: true,
+      width: 600,
     },
     {
       id: "company",
@@ -183,6 +184,7 @@
       sort: true,
       resize: true,
       flexgrow: 1,
+      width: 10,
     },
     {
       id: "reports",
@@ -199,11 +201,6 @@
       flexgrow: 1,
     },
   ];
-
-  const rows = [];
-
-  for (const user of Users) {
-  }
 </script>
 
 <div>
